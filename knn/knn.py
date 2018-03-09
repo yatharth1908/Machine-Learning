@@ -1,7 +1,3 @@
-# Name - Yatharth Garg
-# Class - CSE 6363
-# ID - 1001510282
-
 import csv
 import random
 import math
