@@ -1,5 +1,5 @@
 # Machine-Learning
-This repository contains implementation of Machine Learning techniques. The following approaches have been used - 
+This repository contains implementation of Machine Learning algorithms on different datasets. The following approaches have been used - 
 
 • **k-nearest neighbour classifier and regressor** on iris dataset from the UCI directory - https://archive.ics.uci.edu/ml/datasets/iris. The dataset contains 4 features and 150 instances with no missing values. The data was shuffled for the implementation of the technique and split 80% for training and 20% for testing.. The accuracy achieved for both the classification and regression was above 95%. The code implements both .csv(for classification) and .data(for regression) files
 
