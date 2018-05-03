@@ -12,6 +12,6 @@ cov1 = [1 0.75]
 cov2 = [1 0.75]
        [0.75 1]
 ```
-and label them 0 and 1. Testing data was generated in the same manner as training data, but sample 500 instances for each class, i.e., 1000 in total. Sigmoid function for activation function and cross entropy for objective function, and perform batch training. Maximum number of iterations is 3000. ROC and AUC curves were plotted.
+and label them 0 and 1. Testing data was generated in the same manner as training data, but sample 500 instances for each class, i.e., 1000 in total. Sigmoid function for activation function and cross entropy for objective function, and perform batch training. Maximum number of iterations is 3000. ROC and AUC curves were plotted. Accuracy achieved was over 83%.
 
 • **Naive Bayes classifier** on the mushroom dataset from the UCI directory - https://archive.ics.uci.edu/ml/datasets/mushroom. The dataset contains 22 features and classifier was used to implement if the mushroom selected is edible or poisonous. The dataset contains total 8124 instances. 4000 instances have been used for training and the rest for testing. The accuracy achieved was 79.85% by removing the missing instances in the dataset.
