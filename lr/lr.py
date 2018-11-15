@@ -68,7 +68,7 @@ def gradient(theta, X, y):
     return(grad.flatten())
 
 
-def predict(theta, X, lr=0.01):
+def predict(theta, X, lr=0.5):
     p = sigmoid(X.dot(theta.T)) >= lr
     return(p.astype('int'))
 
